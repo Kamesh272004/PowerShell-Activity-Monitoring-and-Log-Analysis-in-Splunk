@@ -273,20 +273,28 @@ Possible ATT&CK Mapping:
    - frequent PowerShell messages
 - The project demonstrates how PowerShell logs can support SOC investigations, especially when analyzing suspicious scripting activity.
   
-Screenshots
-1. PowerShell Event ID 4104 in Event Viewer
+## Screenshots
 
-2. PowerShell Activity Generated in Windows PowerShell
+### 1. PowerShell Event ID 4104 in Event Viewer
+![PowerShell Event ID 4104](./eventviewer-powershell-4104.png)
 
-3. Additional Process and Service Enumeration Activity
+### 2. PowerShell Activity Generated in Windows PowerShell
+![PowerShell Commands](./powershell-commands.png)
 
-4. PowerShell Execution Policy Bypass and User Enumeration
+### 3. Additional Process and Service Enumeration Activity
+![PowerShell Services and Process Enumeration](./powershell-services-bypass.png)
 
-5. Splunk PowerShell Activity Timeline Dashboard
+### 4. PowerShell Execution Policy Bypass and User Enumeration
+![PowerShell User Enumeration](./powershell-user-enumeration.png)
 
-6. Splunk Event ID, Severity, and Frequent Messages Panels
+### 5. Splunk PowerShell Activity Timeline Dashboard
+![Splunk PowerShell Timeline](./splunk-powershell-timeline.png)
 
-7. Event ID 4103 in Event Viewer
+### 6. Splunk Event ID, Severity, and Frequent Messages Panels
+![Splunk PowerShell Analysis](./splunk-powershell-analysis.png)
+
+### 7. Event ID 4103 in Event Viewer
+![PowerShell Event ID 4103](./eventviewer-powershell-4103.png)
 
 Conclusion
 
